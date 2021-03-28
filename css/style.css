@@ -10,7 +10,7 @@ body {
 
 .left-side   {
 
-    background: url(../assets/jellysmall.jpg);
+    background: url(../assets/futuristic.jpg);
    
     position: fixed;
     left:0;
@@ -54,4 +54,13 @@ section {
     z-index: -1;
     position: fixed;
     clip-path: polygon(36% 0, 95% 0, 65% 100%, 18% 100%);
+  }
+  section {
+    margin: 5rem;
+    font-size: 1.2 rem;
+  }
+  .intro {
+
+margin-left: 34%;
+     
   }
