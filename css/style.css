@@ -1,0 +1,57 @@
+body, html {
+    height:  100%
+}
+
+body {
+    font-weight:  200;
+    font-size: 1.5rem;
+    color: rgb(79, 88, 88);
+}
+
+.left-side   {
+
+    background: url(../assets/jellysmall.jpg);
+   
+    position: fixed;
+    left:0;
+    width: 33%;
+    height: 100%;
+    color: ghostwhite;
+}
+
+
+@media (max-width: 768px) {
+    .leftSide {
+        height: 30vh;
+        margin-bottom: 0;
+        position: relative;
+        width: 100%;
+    }
+}
+
+.headshot {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    margin: 1rem;
+}
+
+.fix-height {
+    height: 100%;
+}
+
+    
+  }
+section {
+    margin: 5rem;
+    font-size: 1.2 rem;
+  }
+  
+.background {
+    background-color: #eee;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: fixed;
+    clip-path: polygon(36% 0, 95% 0, 65% 100%, 18% 100%);
+  }
