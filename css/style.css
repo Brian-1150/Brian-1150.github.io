@@ -3,6 +3,7 @@ body, html {
 }
 
 body {
+    background-color: aquamarine;
   
     font-weight:  200;
     font-size: 1.5rem;
@@ -32,8 +33,8 @@ body {
 
 .headshot {
     width: 10rem;
-    height: 10rem;
-    border-radius: 50%;
+    height: 8rem;
+    border-radius: 60%;
     margin: 1rem;
 }
 
@@ -87,7 +88,19 @@ margin-left: 36%;
 .space {
     margin-left: 2rem;
 }
-   
+#stick-to-top{
+    z-index: 2;
+    top: 0;
+    position: sticky;
+}
+.about{
+    margin-left: 40%;
+    
+    color: cornflowerblue;
+    background-color: brown;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
    
   
 
