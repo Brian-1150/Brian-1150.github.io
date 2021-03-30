@@ -3,14 +3,15 @@ body, html {
 }
 
 body {
+  
     font-weight:  200;
     font-size: 1.5rem;
-    color: rgb(79, 88, 88);
+    color: rgb(73, 85, 85);
 }
 
 .left-side   {
 
-    background: url(../assets/futuristic.jpg);
+    background: url(../assets/darkSkyMed.jpg);
    
     position: fixed;
     left:0;
@@ -41,14 +42,9 @@ body {
 }
 
     
-  }
-section {
-    margin: 5rem;
-    font-size: 1.2 rem;
-  }
-  
+   
 .background {
-    background-color: #eee;
+    background-color: rgb(85, 78, 78);
     width: 100%;
     height: 100%;
     z-index: -1;
@@ -60,7 +56,40 @@ section {
     font-size: 1.2 rem;
   }
   .intro {
-
-margin-left: 34%;
+     
+color: rgb(13, 7, 66);
+margin-left: 36%;
      
   }
+  .crop img {
+    max-height: 200px;
+    max-width: 250px;
+    overflow: hidden;
+   }
+   .smaller img{
+    height: 200px;
+    width: 200px;
+    overflow: hidden;
+   }
+   .card-text{
+    font-size:19px;
+    
+    overflow: hidden;
+}
+.card{
+    margin-top: 2rem;
+}
+.card-img-top {
+    height: 100px;
+    width: 100px;
+    overflow: hidden;
+}
+.space {
+    margin-left: 2rem;
+}
+   
+   
+  
+
+
+   
