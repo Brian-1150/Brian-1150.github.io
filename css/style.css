@@ -3,7 +3,7 @@ body, html {
 }
 
 body {
-    background-color: aquamarine;
+    background-color: rgb(182, 109, 26);
   
     font-weight:  200;
     font-size: 1.5rem;
@@ -12,7 +12,7 @@ body {
 
 .left-side   {
 
-    background: url(../assets/darkSkyMed.jpg);
+    background: url(../assets/redBlackBackground.jpg);
    
     position: fixed;
     left:0;
@@ -96,11 +96,16 @@ margin-left: 36%;
 .about{
     margin-left: 40%;
     
-    color: cornflowerblue;
+    color: white;
     background-color: brown;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
+.right-side{
+    background-color: rgba(152, 139, 165, 0.349);
+    margin-left: 64%;
+    color: black;
+    
+}
    
   
 
