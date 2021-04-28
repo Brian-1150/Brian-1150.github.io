@@ -53,6 +53,7 @@ body {
     clip-path: polygon(36% 0, 95% 0, 65% 100%, 18% 100%);
   }
   section {
+    
     margin: 5rem;
     font-size: 1.2 rem;
   }
@@ -78,7 +79,7 @@ margin-left: 36%;
     overflow: hidden;
 }
 .card{
-    margin-top: 2rem;
+    margin-top: 4rem;
 }
 .card-img-top {
     height: 100px;
@@ -92,22 +93,29 @@ margin-left: 36%;
     z-index: 2;
     top: 0;
     position: sticky;
+    
 }
 .about{
-    margin-left: 40%;
-    
+    border-radius: 15%;
+    margin-left: 36%;
+    padding: 1rem;
     color: white;
-    background-color: brown;
+    background-color: rgba(165, 42, 42, 0.486);
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .right-side{
+    text-align: right;
     background-color: rgba(152, 139, 165, 0.349);
-    margin-left: 64%;
+    margin-left: 75%;
     color: black;
-    
+    font-size:large;
+}
+.nav-link{
+    font-weight:500;
+    color: black;
 }
    
-  
+ 
 
 
    
