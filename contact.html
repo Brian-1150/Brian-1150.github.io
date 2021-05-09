@@ -66,5 +66,9 @@
 
  
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script>document.getElementById("fs-frm").reset();</script>
+    <script>window.onbeforeunload = () => {
+      for(const form of document.getElementsByTagName('form')) {
+        form.reset();
+      }
+    }</script>
 </body>

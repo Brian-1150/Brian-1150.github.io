@@ -32,9 +32,9 @@ body {
 }
 
 .headshot {
-    width: 10rem;
-    height: 8rem;
-    border-radius: 60%;
+  width: 9rem;
+  height: 8rem;
+    border-radius: 50%;
     margin: 1rem;
 }
 
